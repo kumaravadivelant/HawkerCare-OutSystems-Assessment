@@ -1,0 +1,23 @@
+
+# Node.js
+**/node_modules/
+**/test-results/
+
+# Terraform local files and state
+**/.terraform/
+**/terraform.tfstate
+**/terraform.tfstate.*
+**/*.tfvars
+**/*.tfvars.json
+**/crash.log
+
+# Local secrets
+**/.env
+**/.env.*
+**/*.pem
+**/*.pfx
+**/*.key
+
+# System files
+.DS_Store
+Thumbs.db

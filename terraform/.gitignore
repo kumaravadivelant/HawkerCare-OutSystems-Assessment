@@ -1,0 +1,21 @@
+
+# Terraform downloaded providers
+.terraform/
+
+# Terraform state and backups
+*.tfstate
+*.tfstate.*
+
+# Sensitive variable values
+*.tfvars
+*.tfvars.json
+
+# Saved plans and crash logs
+*.tfplan
+crash.log
+crash.*.log
+
+# Local editor and environment files
+.env
+.env.*
+.vscode/
